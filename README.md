@@ -36,6 +36,7 @@ Networking
 - firewall rules configured to allow bidirectional traffic
 
 INSTALLATION & SETUP
+
 Make a SPLUNK free trial account.
 Go to downloads and use the WGET given by Splunk and download splunk enterprise on the server
 Follow the instruction of downloading everything.
@@ -50,6 +51,7 @@ Save and restart Splunk service on linux machine
 "sudo systemctl restart splunk"
 
 Step 2 Install and Configure Sysmon on Windows Client
+
 Download Sysmon and put it in a easy to find folder ( I called mine just "Sysmon" )
 https://learn.microsoft.com/nl-nl/sysinternals/downloads/sysmon
 
